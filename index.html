@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Panier d'Achat</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Panier d'Achat</h1>
+
+    <div>
+        <h2>Produits</h2>
+        <button onclick="addToCart(1, 'Apple', 7)">Ajouter Apple (7 $)</button>
+        <button onclick="addToCart(2, 'Banana',18)">Ajouter Banana (18 $)</button>
+    </div>
+
+    <div id="cart-items"></div>
+    <div id="total-items"></div>
+    <div id="total-price"></div>
+
+    <script src="script.js"></script>
+</body>
+</html>
